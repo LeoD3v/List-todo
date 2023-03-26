@@ -1,5 +1,8 @@
 `use strict`;
 
+// this is my first project using html, javascript and css all in one. I am currently working on appending the shuffled array. the random function is 
+//working, just need to figure out how to append the new items into the html elements. 
+
 // const plcHolder = document.querySelector("#placheholder");
 const btnAdd = document.querySelector(".add-btn");
 const btnRan = document.querySelector(".ran-btn");
