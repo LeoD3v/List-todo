@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+  
+      
+  </head>
+  <body>
+      
+      <div class="main-container" >
+          <form class="form">
+              <label class="text " id="text" type="text">Your List</label>
+              <input
+              type="text"
+              id="placeholder"
+              placeholder=" Type your chores here..">
+            </input>
+            <button type="button" class="btn add-btn">Add</button>
+            <button type="button" class="btn ran-btn">Randomize</button>
+            <button type="button" class="btn del-btn" id="delete">Delete All</button>
+        </form>
+    </div>
+    <!-- <form class="name-list"><label class="name-label">Names</label>
+        <input type="text" placeholder=" Type names.." class="name-placeholder">
+        <button type="button" class="btn add-name">Add</button>
+    </form> -->
+  <div class="flex-container">
+    <div class="left-flexbox ">
+        <form class="name-list"><label class="name-label">Name</label>
+            <input type="text" placeholder=" Type names.." class="name-placeholder" id="name-holder">
+            <button type="button" class="btn add-name">Add</button>
+        </form>
+        <ul class="names" id="names-list">
+          
+            <!-- <li class="text list-todos">Judi   </li>
+            -->
+        </ul>
+    </div>
+     <div class="right-flexbox">
+          <div class="list-title">
+
+            <p>Your List</p>
+          </div>
+        
+      <div class="list-flex">
+        <ul id='list-container'class="ul-list-container">
+            <!-- <li class="text list-todos">shopping   </li> -->
+           
+        </ul>
+      </div>
+    <!-- <div>
+        <ul class="ul-list-names">
+            <li class="text list-names">: Leo</li>
+        </ul>
+    </div> -->
+     </div>
+</div>
+ <script src="script.js"></script>
+  </body>
+</html>
+
+
